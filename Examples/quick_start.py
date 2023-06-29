@@ -5,8 +5,8 @@ import logging
 logging.basicConfig(format='%(name)s:%(levelname)s:%(message)s', level=logging.INFO)
 
 # Path to folder containing images
-path = r'./example_data/' # Use this formatting on Linux and Mac OS
-#path = r'c:\path\to\example_data\\'  # Use this formatting on Windows
+#path = r'./example_data/' # Use this formatting on Linux and Mac OS
+path = r'C:\Users\benja\anaconda3\envs\muDIC\SOFTX_2019_193\Examples\example_data<'  # Use this formatting on Windows
 
 # Generate image instance containing all images found in the folder
 images = dic.IO.image_stack_from_folder(path, file_type='.tif')
